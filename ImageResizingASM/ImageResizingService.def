@@ -1,0 +1,3 @@
+LIBRARY ImageResizingASM
+EXPORTS MyProc
+EXPORTS SetParameters
