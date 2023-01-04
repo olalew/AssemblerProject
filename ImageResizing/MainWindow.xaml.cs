@@ -89,6 +89,38 @@ namespace ImageResizing
             e.Handled = false;
         }
 
+        private void ExecuteForResults(object sender, RoutedEventArgs e)
+        {
+            ExcecutionConfiguration configuration = new ExcecutionConfiguration
+            {
+                InitialBitmap = workingImage,
+                IsAssembly = (bool)IsAssemblyCheckBox.IsChecked,
+                Height = int.Parse(HeightTextBox.Text),
+                Width = int.Parse(WidthTextBox.Text)
+            };
+
+            if (workingImage == null)
+                return;
+
+            StringBuilder resultBuilder = new StringBuilder();
+
+            long summationTime = 0;
+            for (int i = 1; i <= 64; i++)
+            {
+                configuration.ThreadCount = i;
+
+                ImageSizeModifierService sizeModifierService = new ImageSizeModifierService(configuration);
+                long executionTime;
+                (resultBitmap, executionTime) = sizeModifierService.ExecuteAlgorithm();
+
+                summationTime += executionTime;
+                resultBuilder.AppendLine($@"Number of Threads: {i} ---------- ExecutionTime: {executionTime}");
+            }
+
+            TimeElapsedLabel.Text = @$"{summationTime}";
+            File.WriteAllText(@$"C:\Users\olale\Downloads\result_{configuration.Width}_{configuration.Height}.txt", resultBuilder.ToString());
+        }
+
         private void Run_Click(object sender, RoutedEventArgs e)
         {
             ExcecutionConfiguration configuration = new ExcecutionConfiguration

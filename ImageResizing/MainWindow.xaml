@@ -247,6 +247,12 @@
                         Margin="16, 8, 16, 0"
                         Click="Run_Click"/>
 
+                    <Button 
+                        Content="Generuj Wyniki" 
+                        Padding="8" 
+                        Margin="16, 8, 16, 0"
+                        Click="ExecuteForResults"/>
+
                     <TextBlock
                         Margin="16, 24, 8, 0"
                         Text="Czas wykonania:"
