@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h5EoHk8FES28eqAsrIFfgNbGDvKmChbWVDXCqdcPYm3SG+bJqF9c/tk/9HfbAYWjO4JuT0DhuQrtzAuF5Svbeg==",
+  "dgSpecHash": "UMobqdRhoqqQKxQBxxYDzzeFeSZbqzo2BKSF4jFbVJDcTdrF4I/XdtCMajrQ3qjHFedQ4nEkZNg7r7rTKQ1EXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizing\\ImageResizing.csproj",
+  "projectFilePath": "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizing\\ImageResizing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\olale\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\olale\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",

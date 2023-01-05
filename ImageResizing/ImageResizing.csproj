@@ -10,14 +10,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <OutputPath>C:\Users\olale\source\repos\ImageResizingSolution\x64\Debug</OutputPath>
+    <OutputPath>C:\Users\olale\OneDrive\Dokumenty\College\Assembler\AssemblerProject\x64\Debug</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutputPath>C:\Users\olale\source\repos\ImageResizingSolution\x64\Release</OutputPath>
+    <OutputPath>C:\Users\olale\OneDrive\Dokumenty\College\Assembler\AssemblerProject\x64\Release</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizing\\ImageResizing.csproj": {}
+    "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizing\\ImageResizing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizingASM\\ImageResizingASM.vcxproj": {
+    "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizingASM\\ImageResizingASM.vcxproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizingASM\\ImageResizingASM.vcxproj",
+        "projectUniqueName": "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizingASM\\ImageResizingASM.vcxproj",
         "projectName": "ImageResizingASM",
-        "projectPath": "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizingASM\\ImageResizingASM.vcxproj"
+        "projectPath": "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizingASM\\ImageResizingASM.vcxproj"
       },
       "frameworks": {
         "native": {}
       }
     },
-    "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizing\\ImageResizing.csproj": {
+    "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizing\\ImageResizing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizing\\ImageResizing.csproj",
+        "projectUniqueName": "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizing\\ImageResizing.csproj",
         "projectName": "ImageResizing",
-        "projectPath": "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizing\\ImageResizing.csproj",
+        "projectPath": "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizing\\ImageResizing.csproj",
         "packagesPath": "C:\\Users\\olale\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizing\\obj\\",
+        "outputPath": "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -43,8 +43,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizingASM\\ImageResizingASM.vcxproj": {
-                "projectPath": "C:\\Users\\olale\\source\\repos\\ImageResizingSolution\\ImageResizingASM\\ImageResizingASM.vcxproj"
+              "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizingASM\\ImageResizingASM.vcxproj": {
+                "projectPath": "C:\\Users\\olale\\OneDrive\\Dokumenty\\College\\Assembler\\AssemblerProject\\ImageResizingASM\\ImageResizingASM.vcxproj"
               }
             }
           }

@@ -1,7 +1,44 @@
 ﻿  Assembling ImageResizingService.asm...
-ImageResizingService.asm(1): error A2013: .MODEL must precede this directive
-ImageResizingService.asm(3): error A2034: must be in segment block : MyProc
-ImageResizingService.asm(4): error A2034: must be in segment block
-ImageResizingService.asm(5): error A2034: must be in segment block
-ImageResizingService.asm(7): fatal error A1010: unmatched block nesting : MyProc
+ImageResizingService.asm(20): error A2013: .MODEL must precede this directive
+ImageResizingService.asm(21): error A2034: must be in segment block
+ImageResizingService.asm(22): error A2034: must be in segment block
+ImageResizingService.asm(23): error A2034: must be in segment block
+ImageResizingService.asm(24): error A2034: must be in segment block
+ImageResizingService.asm(25): error A2034: must be in segment block
+ImageResizingService.asm(26): error A2034: must be in segment block
+ImageResizingService.asm(28): error A2013: .MODEL must precede this directive
+ImageResizingService.asm(30): error A2034: must be in segment block : SetParameters
+ImageResizingService.asm(32): error A2034: must be in segment block
+ImageResizingService.asm(33): error A2034: must be in segment block
+ImageResizingService.asm(34): error A2034: must be in segment block
+ImageResizingService.asm(35): error A2034: must be in segment block
+ImageResizingService.asm(37): error A2034: must be in segment block
+ImageResizingService.asm(39): error A2034: must be in segment block
+ImageResizingService.asm(40): error A2034: must be in segment block
+ImageResizingService.asm(42): error A2034: must be in segment block
+ImageResizingService.asm(43): error A2034: must be in segment block
+ImageResizingService.asm(46): error A2034: must be in segment block
+ImageResizingService.asm(48): error A2034: must be in segment block
+ImageResizingService.asm(49): error A2034: must be in segment block
+ImageResizingService.asm(51): error A2034: must be in segment block
+ImageResizingService.asm(54): error A2034: must be in segment block
+ImageResizingService.asm(55): error A2034: must be in segment block
+ImageResizingService.asm(57): error A2034: must be in segment block
+ImageResizingService.asm(59): error A2034: must be in segment block
+ImageResizingService.asm(61): error A2034: must be in segment block
+ImageResizingService.asm(64): error A2034: must be in segment block
+ImageResizingService.asm(66): error A2034: must be in segment block
+ImageResizingService.asm(67): error A2034: must be in segment block
+ImageResizingService.asm(69): error A2034: must be in segment block
+ImageResizingService.asm(71): error A2034: must be in segment block
+ImageResizingService.asm(72): error A2034: must be in segment block
+ImageResizingService.asm(74): error A2034: must be in segment block
+ImageResizingService.asm(76): error A2034: must be in segment block
+ImageResizingService.asm(78): error A2034: must be in segment block
+ImageResizingService.asm(80): error A2034: must be in segment block
+ImageResizingService.asm(81): error A2034: must be in segment block
+ImageResizingService.asm(82): error A2034: must be in segment block
+ImageResizingService.asm(83): error A2034: must be in segment block
+ImageResizingService.asm(84): error A2034: must be in segment block
+ImageResizingService.asm(86): fatal error A1010: unmatched block nesting : SetParameters
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\ImageResizingService.obj" /W3 /errorReport:prompt  /TaImageResizingService.asm" exited with code 1.
